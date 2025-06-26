@@ -1,0 +1,1 @@
+# finaluri-proeqti-nino-tusishvili
