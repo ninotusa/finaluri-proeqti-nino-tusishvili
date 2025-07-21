@@ -272,6 +272,45 @@ header {
   }
 }
 
+@media (max-width: 1280px) {
+  header {
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .main-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .film-title {
+    font-size: 36px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-basis: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+}
+
+
 /* Intro Section */
 .intro-section {
   padding: 80px 0;
